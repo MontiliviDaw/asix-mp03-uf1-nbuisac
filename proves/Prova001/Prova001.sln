@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.7.34031.279
+VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prova001", "Prova001\Prova001.csproj", "{86B05BF0-D06D-4DFB-9E0B-E6303A660F1F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prova001", "Prova001\Prova001.csproj", "{54AF6608-F9A6-4503-9B30-9DCF1F686E55}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{86B05BF0-D06D-4DFB-9E0B-E6303A660F1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{86B05BF0-D06D-4DFB-9E0B-E6303A660F1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{86B05BF0-D06D-4DFB-9E0B-E6303A660F1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{86B05BF0-D06D-4DFB-9E0B-E6303A660F1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54AF6608-F9A6-4503-9B30-9DCF1F686E55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54AF6608-F9A6-4503-9B30-9DCF1F686E55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54AF6608-F9A6-4503-9B30-9DCF1F686E55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54AF6608-F9A6-4503-9B30-9DCF1F686E55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {566D085E-499E-4393-912B-65B5919552DF}
+		SolutionGuid = {A4436035-3F40-4E0A-85E2-F399238A112B}
 	EndGlobalSection
 EndGlobal
