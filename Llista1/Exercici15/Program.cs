@@ -56,7 +56,7 @@ Console.WriteLine($"{bitllets} monedes de 10 cents");
 
 bitllets = canvi / 5;
 canvi = canvi % 5;
-Console.WriteLine($"{bitllets} monedes de 50 cents");
+Console.WriteLine($"{bitllets} monedes de 5 cents");
 
 bitllets = canvi / 2;
 canvi = canvi % 2;
