@@ -6,6 +6,7 @@ any = Convert.ToInt32(Console.ReadLine());
 d4 = any % 10;
 any = any / 10;
 d3 = any % 10;
+
 any = any / 10;
 d2 = any % 10;
 any = any / 10;
