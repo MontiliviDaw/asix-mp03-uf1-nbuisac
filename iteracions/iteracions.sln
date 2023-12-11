@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "iteracions", "iteracions.csproj", "{FC660A9B-3A3E-4FCA-9178-873A384A0CD8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC660A9B-3A3E-4FCA-9178-873A384A0CD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC660A9B-3A3E-4FCA-9178-873A384A0CD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC660A9B-3A3E-4FCA-9178-873A384A0CD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC660A9B-3A3E-4FCA-9178-873A384A0CD8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E2F68C6-7DFD-4F29-96C9-811818B7CF50}
+	EndGlobalSection
+EndGlobal
