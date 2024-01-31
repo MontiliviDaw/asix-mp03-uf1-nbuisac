@@ -18,7 +18,7 @@ while (b == 0) {
 if (a > b) {
     gran = a;  petit = b;
 } else {
-    petit = b; gran = b;
+    gran = b; petit = a;
 }
 while (gran % petit != 0) {
     int aux = gran;
