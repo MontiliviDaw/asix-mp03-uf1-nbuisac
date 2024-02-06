@@ -5,8 +5,7 @@ int i;
 
 i = 1;
 apilable = 1;
-while (apilable < 1000)
-{
+while (apilable <= 1000) {
     Console.WriteLine(apilable);
     apilable = apilable + i;
     i++;

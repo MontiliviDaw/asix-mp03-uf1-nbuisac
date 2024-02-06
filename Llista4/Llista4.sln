@@ -29,11 +29,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercici24", "Exercici24\Ex
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercici33", "Exercici33\Exercici33.csproj", "{C923FF10-7CF6-4D73-9F90-52E60739BFCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercici35", "Exercici35\Exercici35.csproj", "{1E0B3ABB-DD57-4E6C-9E12-7E3A8DA47685}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercici35", "Exercici35\Exercici35.csproj", "{1E0B3ABB-DD57-4E6C-9E12-7E3A8DA47685}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercici36", "Exercici36\Exercici36.csproj", "{B846D023-55D4-4A04-9DDB-B4A0A12B224B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercici36", "Exercici36\Exercici36.csproj", "{B846D023-55D4-4A04-9DDB-B4A0A12B224B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercici29", "Exercici29\Exercici29.csproj", "{52DE1753-D415-4740-843D-594B0469178D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercici29", "Exercici29\Exercici29.csproj", "{52DE1753-D415-4740-843D-594B0469178D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercici31", "Exercici31\Exercici31.csproj", "{4BFDC47F-C789-4733-91EB-E5A149843089}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercici32", "Exercici32\Exercici32.csproj", "{797E0629-8940-4EAD-AB31-8641B9026B3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +109,14 @@ Global
 		{52DE1753-D415-4740-843D-594B0469178D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52DE1753-D415-4740-843D-594B0469178D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52DE1753-D415-4740-843D-594B0469178D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BFDC47F-C789-4733-91EB-E5A149843089}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BFDC47F-C789-4733-91EB-E5A149843089}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BFDC47F-C789-4733-91EB-E5A149843089}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BFDC47F-C789-4733-91EB-E5A149843089}.Release|Any CPU.Build.0 = Release|Any CPU
+		{797E0629-8940-4EAD-AB31-8641B9026B3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{797E0629-8940-4EAD-AB31-8641B9026B3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{797E0629-8940-4EAD-AB31-8641B9026B3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{797E0629-8940-4EAD-AB31-8641B9026B3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
