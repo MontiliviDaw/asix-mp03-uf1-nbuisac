@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prova001", "Prova001\Prova001.csproj", "{54AF6608-F9A6-4503-9B30-9DCF1F686E55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prova001", "Prova001\Prova001.csproj", "{54AF6608-F9A6-4503-9B30-9DCF1F686E55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metodes01", "Metodes01\Metodes01.csproj", "{1DF5C802-4AC3-4795-9AD5-04E536CF507A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaulaMultiplicar", "TaulaMultiplicar\TaulaMultiplicar.csproj", "{688CB5CC-BA93-493E-BC69-D635E24CA700}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{54AF6608-F9A6-4503-9B30-9DCF1F686E55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54AF6608-F9A6-4503-9B30-9DCF1F686E55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54AF6608-F9A6-4503-9B30-9DCF1F686E55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DF5C802-4AC3-4795-9AD5-04E536CF507A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DF5C802-4AC3-4795-9AD5-04E536CF507A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DF5C802-4AC3-4795-9AD5-04E536CF507A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DF5C802-4AC3-4795-9AD5-04E536CF507A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{688CB5CC-BA93-493E-BC69-D635E24CA700}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{688CB5CC-BA93-493E-BC69-D635E24CA700}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{688CB5CC-BA93-493E-BC69-D635E24CA700}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{688CB5CC-BA93-493E-BC69-D635E24CA700}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
