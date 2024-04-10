@@ -13,16 +13,53 @@
         do {
             dni = DemanaString("DNI");
         } while (! ValidDNI(dni));
-        email = DemanaString("email");
-        // if(ValidEmail(email)) { Console.WriteLine("Ok DNI"); }
-        // else { Console.WriteLine("KO DNI"); }
-        dataNaixement = DemanaString("Data de Naixement");
-        /* if (ValidDataNaixement(dataNaixement)) {
-            Console.WriteLine("Ok Data Naixement");
-        } else { Console.WriteLine("KO Data Naixement")}
-        */
+        do {
+            email = DemanaString("email");
+        } while (!ValidEmail(email));
+        do {
+            dataNaixement = DemanaString("Data de Naixement");
+        } while (!ValidDataNaixement(dataNaixement));
+
 
         Console.ReadKey();
+    }
+
+    static bool ValidDataNaixement(string dia) {
+        DateTime dt;
+        return DateTime.TryParse(dia, out dt);
+    }
+    static bool ValidEmail(string em) {
+        bool valid = true;
+        string usuari, domini,esquerra, dreta;
+
+        em = em.ToLower();
+        usuari = em.Substring(0, em.IndexOf('@'));
+        domini = em.Substring(em.IndexOf('@') + 1);
+        if (usuari.Length < 3) valid = false;
+        else {
+            for(int i = 0; i < usuari.Length; i++) {
+                if (((usuari[i] < '0' || usuari[i] > '9') &&
+                     (usuari[i] < 'a' || usuari[i] > 'z'))) {
+                    valid = false;
+                }
+            }
+        }
+        if (valid) {
+            esquerra = domini.Substring(0, domini.IndexOf('.'));
+            dreta = domini.Substring(domini.IndexOf('.') + 1);
+            if (esquerra.Length < 3) valid = false;
+            else {
+                int i = 0;
+                while (i < esquerra.Length && valid) {
+                    if (esquerra[i] < 'a' || esquerra[i] > 'z')
+                        valid = false;
+                    i++;
+                }
+                if (dreta != "com" && dreta != "cat" && dreta != "es")
+                    valid = false;
+            }
+        }
+        return valid;
     }
 
     static bool ValidTelefon(string tel) {
