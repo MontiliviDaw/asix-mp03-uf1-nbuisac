@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Serp {
     class Class1 {
         static bool prou = false;
         static int ample = 1;
         static int alt = 1;
-        static Semaphore semafor = new Semaphore(1, 1);
+//        static Semaphore semafor = new Semaphore(1, 1);
         private static void Main_(string[] args) {
             Thread t1, t2;
             ConsoleColor c;
@@ -33,11 +32,11 @@ namespace Serp {
             while (!prou) {
                 x = r.Next(ample);
                 y = r.Next(alt);
-                semafor.WaitOne();
+//                semafor.WaitOne();
                 Console.SetCursorPosition(x, y);
                 Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.Write(m);
-                semafor.Release();
+//                semafor.Release();
                 Thread.Sleep(r.Next(100, 1000));
             }
         }
@@ -48,13 +47,12 @@ namespace Serp {
             while (!prou) {
                 x = r.Next(ample);
                 y = r.Next(alt);
-                semafor.WaitOne();
+//                semafor.WaitOne();
                 Console.SetCursorPosition(x, y);
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.Write(m);
-                semafor.Release();
+//                semafor.Release();
                 Thread.Sleep(r.Next(100, 1000));
             }
         }
     }
-}
