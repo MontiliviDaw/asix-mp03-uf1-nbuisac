@@ -14,6 +14,8 @@
             }
         }
         Console.WriteLine($"N'has encertat {encerts}");
+        f1.Close();
+        f2.Close();
 
     }
 }
