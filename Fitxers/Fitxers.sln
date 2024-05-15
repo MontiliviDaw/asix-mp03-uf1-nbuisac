@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fitxers003", "Fitxers003\Fi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercici004", "Exercici004\Exercici004.csproj", "{F52BB343-2C3A-4A12-80EC-944DFD72AF52}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercici005", "Exercici005\Exercici005.csproj", "{DEDFDA42-9A99-4B64-9023-0800B81BDF81}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{F52BB343-2C3A-4A12-80EC-944DFD72AF52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F52BB343-2C3A-4A12-80EC-944DFD72AF52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F52BB343-2C3A-4A12-80EC-944DFD72AF52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEDFDA42-9A99-4B64-9023-0800B81BDF81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEDFDA42-9A99-4B64-9023-0800B81BDF81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEDFDA42-9A99-4B64-9023-0800B81BDF81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEDFDA42-9A99-4B64-9023-0800B81BDF81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
