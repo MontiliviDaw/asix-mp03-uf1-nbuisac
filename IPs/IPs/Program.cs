@@ -22,11 +22,14 @@
         string[] valors = adrecaIP.Split('.');
         valida = (valors.Length == 4);
         if (valida) {
-
+            int i = 0;
+            while (i < valors.Length && valida) {
+                if (Convert.ToInt32(valors[i]) < 0 ||
+                    Convert.ToInt32(valors[i]) > 255)
+                    valida = false;
+                i++;
+            }
         }
-
-
-
         return valida;
     }
     static string DemanaMascara() {
@@ -34,7 +37,35 @@
 
         Console.Write("Entra una mascara -> ");
         mascara = Console.ReadLine();
+        while (!ValidaMascara(mascara))  {
+            Console.Write("Entra una mascara -> ");
+            mascara = Console.ReadLine();
+        };
         return mascara;
+    }
+    static bool ValidaMascara(string mascara) {
+        bool valida = true;
+        bool totZeros = false;
+        int[] llista = new int[9];
+        string[] valors = mascara.Split('.');
+        int i;
+        
+        valida = (valors.Length == 4);
+        if (valida) {
+            // Omplim la taula de 255, 254, 252, 248, 240, 224, ...0
+            for (i = 0; i < llista.Length; i++)
+                llista[i] = 255 - ((int)Math.Pow(2, i) - 1);
+            i = 0;
+            while (valida && i < valors.Length) {
+                if (totZeros) {
+                    valida = Convert.ToInt32(valors[i]) == 0;
+                } else {
+                    valida = llista.Contains(Convert.ToInt32(valors[i]));
+                }
+                i++;
+            }
+        }
+        return valida;
     }
     static string AdrecaXarxa(string ip, string mask) {
         string xarxa = "";
