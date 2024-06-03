@@ -6,7 +6,7 @@
 
         nomPC = DemanaNom("PC");
         nomJugador = DemanaNom("jugador");
-        MostraTitol("Joc de la mort");
+        MostraTitol("Joc de l'examen");
         InicialitzaSalut(out salutJugador, out salutPC);
         MostraSalut(nomJugador, salutJugador);
         MostraSalut(nomPC, salutPC);
@@ -33,6 +33,7 @@
     static bool EsViu(int s) {
         if (s > 0) return true;
         else return false;
+        // return (s > 0);
     }
     static void TreuSalut(ref int s1,  int treure) {
         s1 = s1 - treure;
@@ -43,6 +44,7 @@
     static bool NinguGuanya(int s1, int s2) {
         if (s1 > 0 && s2 > 0) return true;
         else return false;
+        // return (s1 > 0 && s2 > 0);
     }
     static void MostraSalut(string nom, int salut) {
         Console.WriteLine($"{nom} --> {salut}");
